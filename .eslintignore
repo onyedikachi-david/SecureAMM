@@ -1,0 +1,8 @@
+**/node_modules
+**/dist
+**/coverage
+**/contracts
+**/typechain
+**/typechain-types
+**/.eslintrc.cjs
+Algebra

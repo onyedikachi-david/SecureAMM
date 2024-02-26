@@ -1,0 +1,32 @@
+{
+  "name": "algebra-plugin-template",
+  "version": "1.0.0",
+  "description": "Template for Algebra Integral AMM plugins",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "solhint": "solhint ./contracts/**/*.sol",
+    "lint": "eslint .",
+    "prettier:contracts": "prettier contracts/**/*.sol -w",
+    "prettier:tests": "prettier tests/** -w"
+  },
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "hardhat": "^2.17.3",
+    "hardhat-contract-sizer": "^2.10.0",
+    "prettier": "^2.0.0",
+    "prettier-plugin-solidity": "^1.1.3",
+    "solhint": "^3.6.2",
+    "solhint-plugin-prettier": "^0.0.5"
+  },
+  "dependencies": {
+    "@cryptoalgebra/integral-core": "^0.2.0"
+  }
+}
