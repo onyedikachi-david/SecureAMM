@@ -13,6 +13,7 @@
   "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/hardhat-upgrades": "^2.2.1",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.0",
     "dotenv": "^16.3.1",
@@ -27,6 +28,9 @@
     "solhint-plugin-prettier": "^0.0.5"
   },
   "dependencies": {
-    "@cryptoalgebra/integral-core": "^0.2.0"
+    "@cryptoalgebra/integral-core": "^0.2.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "dotenv": "^16.3.1"
   }
 }

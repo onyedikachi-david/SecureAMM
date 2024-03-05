@@ -1,24 +1,39 @@
-# Algebra Integral plugin template
+# Project Name: SecureAMM Identity Integration
 
-This project is intended to simplify the process of creating a new plugin for Algebra Integral AMM. Along with the standard hardhat boilerplate, this repository includes a number of contracts that may be useful when creating a plugin.
+## Haven1 Proof of Identity Integration for Algebra Integral AMM
 
-## Docs
+## Overview
 
-The current documentation page is located at: <a href="https://cryptoalgebra.gitbook.io/">https://cryptoalgebra.gitbook.io/</a>
+This project integrates the Haven1 Proof of Identity solution into Algebra Integral AMM, enhancing security and enabling identity verification for users. Developed as part of a hackathon project, this integration aims to showcase innovative use of blockchain technology.
 
-A separate subsection is devoted to the development of plugins: <a href="https://cryptoalgebra.gitbook.io/algebra-integral">https://cryptoalgebra.gitbook.io/algebra-integral/plugins</a>
+## Technologies Used
 
-## Installation
+- Solidity
+- Ethereum
+- Haven1 Proof of Identity Framework
+- Non-Fungible Tokens (NFTs)
 
-Clone this repository:
+## Features
 
-```shell
-git clone https://github.com/cryptoalgebra/algebra-plugin-template --recursive
-cd algebra-plugin-template
-```
+- Seamless integration of Haven1 Proof of Identity solution into Algebra Integral AMM.
+- Enhanced security through identity verification for users.
+- Utilizes NFTs to store anonymized user information.
+- Enables developers to leverage identity verification for app permissions and novel blockchain use cases.
+- Future implementation: Introducing fees for non-verified users to incentivize identity verification.
 
-Install dependencies:
+## Project Details
 
-```shell
-npm i
-```
+This project demonstrates the potential of combining Algebra Integral AMM with the Haven1 Proof of Identity solution to create a more secure and compliant decentralized finance ecosystem. By leveraging the Provable Identity Framework, this integration opens up possibilities for real-world asset integration and innovative blockchain applications.
+
+## Algebra Integral AMM Documentation
+
+- [Algebra Integral AMM GitHub Repository](https://github.com/algebra-integral-amm)
+- [Algebra Integral AMM Developer Guide](https://docs.algebra-integral-amm.io/developer-guide)
+- [Algebra Integral AMM API Reference](https://docs.algebra-integral-amm.io/api-reference)
+
+## Resources
+
+- [Haven1 Documentation](https://docs.haven1.org)
+- [Haven1 Litepaper](https://docsend.com/view/8hnh4kah6updyzf4)
+
+For more detailed information on the project, Algebra Integral AMM documentation, and the technologies used, please refer to the provided resources.
